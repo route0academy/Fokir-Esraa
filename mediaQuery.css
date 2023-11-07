@@ -1,0 +1,302 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+ .container{
+    width:100%
+ }
+ /* *---------------------------------Start Navbar---------------------------------------- */
+ .nav-bar .container{
+    width:70%
+ }
+ .menu{
+    display: block;
+ }
+ .nav-bar ul{
+    display: none;
+ }
+/* *---------------------------------End Navbar------------------------------------------ */
+/* ?----------------------------------Start About Section-------------------------------- */
+.about-image{
+    width: 100%;
+    
+}
+
+.img-container{
+    border: none;
+    width: 90%;
+   margin: auto;
+   margin-left: 0%;
+
+}
+.photo{
+    width: 90%;
+    margin: auto;
+}
+.about-text{
+    width: 90%;
+    margin-top: 50px;
+    
+   
+}
+.about-text-content{
+    padding-left: 7%;
+    margin: auto;
+    
+max-width: 100%;
+    
+}
+.about-text-content ul li{
+    width: 100%;
+}
+/* ?----------------------------------End About Section-------------------------------- */
+/* &----------------------------------Start Service Section-------------------------------- */
+.card-container .card{
+    width: 90%;
+}
+/* &----------------------------------End Service Section---------------------------------- */
+
+/* ^---------------------------Start Portfolio  section---------------------*/
+.portfolio-photo-container{
+    width: 90%;
+    margin: auto;
+}
+.portfolio-photo-container .portfolio-image{
+    width:100%;
+    margin-block: 3%;
+}
+
+
+/* ^---------------------------end Portfolio  section---------------------*/
+/* *----------------------------------Start Counter Section---------------------------- */
+.counter .container .counter-content{
+    width: 100%;
+}
+/* *----------------------------------Start Counter Section---------------------------- */
+/* ^----------------------------------Start Blog Section------------------------------- */
+.blog-card{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 4%;
+}
+/* ^----------------------------------End Blog Section------------------------------- */
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* !####################################################################################################################### */
+@media only screen and (600px < width < 768px) {
+    .container{
+        width:100%
+     }
+ /* *---------------------------------Start Navbar---------------------------------------- */
+ .nav-bar .container{
+    width:60%
+ }
+ .menu{
+    display: block;
+ }
+ .nav-bar ul{
+    display: none;
+ }
+/* *---------------------------------End Navbar------------------------------------------ */
+.about-image{
+    width: 100%;
+    
+}
+
+.img-container{
+    border: none;
+    width: 90%;
+   margin: auto;
+   margin-left: 0%;
+}
+.photo{
+    width: 80%;
+    margin: auto;
+}
+.about-text{
+    width: 100%;
+    margin-top: 50px;
+   
+}
+.about-text-content{
+    max-width: 100%;
+    margin: auto; 
+}
+.about-text-content ul li{
+    width: 100%;
+}
+/* ?----------------------------------End About Section-------------------------------- */
+/* &----------------------------------Start Service Section-------------------------------- */
+.card-container .card{
+    width: 60%;
+}
+/* &----------------------------------End Service Section---------------------------------- */
+    /* ^---------------------------Start Portfolio  section---------------------*/
+.portfolio-photo-container{
+    width: 100%;
+    margin: auto;
+}
+.portfolio-photo-container .portfolio-image{
+    width:49%;
+    margin-block: 3%;
+}
+/* ^---------------------------end Portfolio  section---------------------*/
+/* *----------------------------------Start Counter Section---------------------------- */
+.counter .container .counter-content{
+    width: 100%;
+}
+/* *----------------------------------Start Counter Section---------------------------- */
+/* ^----------------------------------Start Blog Section------------------------------- */
+.blog-card{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 4%;
+}
+/* ^----------------------------------End Blog Section------------------------------- */
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* !######################################################################################################## */
+@media only screen and (768px < width < 992px) {
+    .container{
+        width:90%
+     }
+/* ?----------------------------------Start About Section-------------------------------- */
+.about .container{
+    width: 100%;
+}
+.about-image{
+    width: 50%;
+    
+}
+
+.img-container{
+    border: none;
+    width: 90%;
+   margin: auto;
+   margin-left: 0%;
+
+}
+.photo{
+    width: 97%;
+    margin: auto;
+}
+.about-text{
+    width: 50%;
+    margin-top: 30px;
+}
+.about-text-content{
+    padding-left: 1%;
+    margin: auto;
+}
+.about-text-content h2{
+    margin-bottom: 15px;
+}
+.about-text-content p{
+    max-width: 100%;
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+
+}
+.about-text-content ul li{
+    width: 50%;
+    font-size: 14px;
+    line-height: 14px;
+}
+/* ?----------------------------------End About Section-------------------------------- */
+/* &----------------------------------Start Service Section-------------------------------- */
+.card-container .card{
+    width: 48%;
+    margin: auto;
+}
+/* &----------------------------------End Service Section---------------------------------- */
+/* ^---------------------------Start Portfolio  section---------------------*/
+.portfolio-photo-container{
+    width: 100%;
+    margin: auto;
+}
+.portfolio-photo-container .portfolio-image{
+    width:49%;
+    margin-block: 3%;
+}
+/* ^---------------------------end Portfolio  section---------------------*/
+   
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (992px < width < 1200px) {
+    .container{
+        width:90%
+     }
+     /* ?----------------------------------Start About Section-------------------------------- */
+     .about .container{
+        width: 100%;
+    }
+    .about-image{
+        width: 40%;
+        
+    }
+    .img-container{
+
+        width: 80%;
+       /* margin: auto; */
+       margin-left: 10%;
+
+    
+    }
+    .photo{
+        width: 100%;
+        margin: auto;
+    } 
+    /* 
+    
+    .img-container{
+        border: none;
+        width: 90%;
+       margin: auto;
+       margin-left: 0%;
+    
+    }
+    .photo{
+        width: 97%;
+        margin: auto;
+    } */
+    .about-text{
+        width: 60%;
+        margin-top: 30px;
+    }
+    .about-text-content{
+        padding-left: 1%;
+        margin: auto;
+    }
+    .about-text-content h2{
+        margin-bottom: 15px;
+    }
+    .about-text-content p{
+        max-width: 100%;
+        font-size: 16px;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+    
+    }
+    .about-text-content ul li{
+        width: 50%;
+        font-size: 14px;
+        line-height: 14px;
+    }
+    /* ?----------------------------------End About Section-------------------------------- */
+/* &----------------------------------Start Service Section-------------------------------- */
+.card-container .card{
+    width: 25%;
+    margin: auto;
+}
+/* &----------------------------------End Service Section---------------------------------- */
+  
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
